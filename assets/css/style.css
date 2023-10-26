@@ -108,7 +108,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0s !important;
   }
 }
 
@@ -120,7 +120,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(15, 28, 46, 0.9);
 }
 
 #header.header-transparent {
@@ -128,7 +128,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(15, 28, 46, 0.609);
   height: 60px;
 }
 
@@ -202,7 +202,7 @@ h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #1acc8d;
+  background-color: #cee8ff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -318,7 +318,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: rgba(31, 43, 62, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -351,13 +351,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0205a1;
+  color: #0F1C2E;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #3f43fd;
+  color: #3D5A80;
 }
 
 .navbar-mobile .getstarted,
@@ -399,7 +399,7 @@ h6 {
 .navbar-mobile .dropdown .dropdown ul a:hover,
 .navbar-mobile .dropdown .dropdown ul .active:hover,
 .navbar-mobile .dropdown .dropdown ul li:hover>a {
-  color: #1acc8d;
+  color: #0F1C2E;
 }
 
 .navbar-mobile .dropdown>.dropdown-active,
@@ -417,9 +417,10 @@ h6 {
   padding: 120px 0 0 0;
 }
 
+
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: rgba(31, 43, 62, 0.91);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -437,7 +438,7 @@ h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  border-bottom: 4px solid #cee8ff;
 }
 
 #hero h2 {
@@ -455,12 +456,13 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #fff;
-  background: #1acc8d;
+  color: #0F1C2E;
+  background: #cee8ff;
 }
 
 #hero .btn-get-started:hover {
-  background: #17b57d;
+  background: #0F1C2E;
+  color: #cee8ff;
 }
 
 #hero .animated {
@@ -601,12 +603,16 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+.sobreNosotros{
+  text-align: justify;
+}
+
 .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: #1f2b3e;
   margin: 4px 10px;
 }
 
@@ -617,7 +623,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #0F1C2E;
 }
 
 /*--------------------------------------------------------------
@@ -692,7 +698,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #0F1C2E;
   margin-bottom: 15px;
 }
 
@@ -707,19 +713,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #7ceec6;
+  border: 2px solid #3D5A80;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: #3D5A80;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: #3D5A80;
+  border-color: #3D5A80;
 }
 
 .about .icon-box:hover .icon i {
@@ -739,7 +745,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1acc8d;
+  color: #0F1C2E;
 }
 
 .about .icon-box .description {
@@ -788,9 +794,9 @@ section {
   height: 120px;
   animation-delay: 0s;
   animation: pulsate-btn 2s;
-  animation-direction: forwards;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
-  animation-timing-function: steps;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
   opacity: 1;
   border-radius: 50%;
   border: 5px solid rgba(63, 67, 253, 0.7);
@@ -893,7 +899,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1acc8d;
+  background: #3D5A80;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -909,7 +915,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #010483;
+  color: #0F1C2E;
 }
 
 .counts .count-box p {
@@ -1360,7 +1366,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #3f43fd;
+  color: #0F1C2E;
   float: left;
   width: 44px;
   height: 44px;
@@ -1377,14 +1383,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #0F1C2E;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0205a1;
+  color: #0F1C2E;
 }
 
 .contact .info .email,
@@ -1395,7 +1401,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #1acc8d;
+  background: #0F1C2E;
   color: #fff;
 }
 
@@ -1465,7 +1471,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1acc8d;
+  background: #0F1C2E;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1474,7 +1480,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #34e5a6;
+  background: #374357;
 }
 
 @keyframes animate-loading {
@@ -1491,7 +1497,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #1f2b3e;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1503,9 +1509,9 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #0F1C2E;
   color: #fff;
-  border-top: 4px solid #1acc8d;
+  border-top: 4px solid #cee8ff;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1540,8 +1546,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
-  color: #fff;
+  background: #cee8ff;
+  color: #0F1C2E;
   text-decoration: none;
 }
 
@@ -1565,7 +1571,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #61ebba;
+  color: #cee8ff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1588,7 +1594,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #4be8b0;
+  color: #e0e0e0;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1614,18 +1620,19 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1acc8d;
-  color: #fff;
+  background: #cee8ff;
+  color: #0F1C2E;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #149f6e;
+  background: #0F1C2E;
+  color: #cee8ff;
 }
 
 #footer .copyright {
-  border-top: 1px solid #010479;
+  border-top: 1px solid #3D5A80;
   text-align: center;
   padding-top: 30px;
 }
